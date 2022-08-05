@@ -54,10 +54,6 @@ nav > a {
 
 }
 
-nav >:hover {
-
-}
-
 body {
     background-color: var(--cor01);
 }
@@ -65,7 +61,7 @@ body {
 main {
     margin: auto;
     padding: 25px;
-    max-width: 70%;
+    max-width: 90%;
     
 }
 
@@ -87,9 +83,9 @@ section > p {
 
 
 section > img {
-    margin: 10px;
-    width: 25vw;
-    height: 25vh;
+    margin: 20px;
+    width: 30vw;
+    
     
 }
 
