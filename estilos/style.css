@@ -1,0 +1,96 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'DancingScript';
+    src: url(../fontes/DancingScript-VariableFont_wght.ttf) format('opentype');
+}
+
+:root {
+    --fonte1: 'DancingScript';
+    --fonte2: Arial, Helvetica, sans-serif;
+
+    --cor00: #ECED13;
+    --cor01: #F7E114;
+    --cor02: #E0B81E;
+    --cor03: #F7B314;
+    --cor04: #ED9613;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: url(../imagens/pieceWhite_border01-_1_.cur), auto;
+    
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor00), var(--cor04));
+    font-family: var(--fonte1);
+    text-align: center;
+    
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 3vw;
+}
+
+h2 {
+    padding-bottom: 30px;
+    font-size: 2.5vw;
+}
+
+nav {
+    text-align: left;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    
+}
+
+nav > a {
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+nav >:hover {
+
+}
+
+body {
+    background-color: var(--cor01);
+}
+
+main {
+    margin: auto;
+    padding: 25px;
+    max-width: 70%;
+    
+}
+
+section.home, section.profs {
+    display: flex;
+}
+
+section.jogos {
+    text-align: center;
+}
+
+section > p {
+    margin: 20px;
+    font-family: var(--fonte2);
+    text-align: justify;
+    font-size: 2vw;
+    text-indent: 2em;
+}
+
+
+section > img {
+    margin: 60px 10px;
+    width: 25vw;
+    height: 25vh;
+    
+}
+
+
