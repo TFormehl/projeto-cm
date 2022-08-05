@@ -85,14 +85,14 @@ section.home > p {
 
 section.jogos {
     padding: 50px;
+    
 }
 
 section.jogos > p {
-    margin: 20px;
     font-family: var(--fonte2);
-    margin: 25px;
     font-size: 2vw;
     text-align: justify;
+    padding: 20px;
     
 }
 
@@ -110,7 +110,6 @@ section.profs > p {
 section > img {
     margin: 20px;
     width: 30vw;
-    
     
 }
 
