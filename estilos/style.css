@@ -59,6 +59,7 @@ nav > a {
 }
 
 body {
+    text-align: center;
     background-color: var(--cor01);
 }
 
@@ -69,22 +70,41 @@ main {
     
 }
 
-section.home, section.profs {
+section.home {
     display: flex;
 }
 
-section.jogos {
-    text-align: center;
-    margin: 25px;
-}
-
-section > p {
+section.home > p {
     margin: 20px;
     font-family: var(--fonte2);
-    text-align: justify;
+    margin: 25px;
     font-size: 2vw;
-    text-indent: 2em;
+    text-align: justify;
+
 }
+
+section.jogos {
+    padding: 50px;
+}
+
+section.jogos > p {
+    margin: 20px;
+    font-family: var(--fonte2);
+    margin: 25px;
+    font-size: 2vw;
+    text-align: justify;
+    
+}
+
+section.profs > p {
+    margin: auto;
+    font-family: var(--fonte2);
+    margin: 25px;
+    font-size: 2vw;
+    text-align: center;
+}
+
+
 
 
 section > img {
