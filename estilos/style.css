@@ -71,6 +71,7 @@ section.home, section.profs {
 
 section.jogos {
     text-align: center;
+    margin: 25px;
 }
 
 section > p {
