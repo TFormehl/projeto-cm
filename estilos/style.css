@@ -4,6 +4,14 @@
     src: url(../fontes/DancingScript-VariableFont_wght.ttf) format('opentype');
 }
 
+@media screen and (max-width: 480px){
+    .tela { 
+        width: 320px;
+        height: auto;
+
+    }
+}
+
 :root {
     --fonte1: 'DancingScript';
     --fonte2: Arial, Helvetica, sans-serif;
@@ -84,7 +92,7 @@ section.home > p {
 }
 
 section.jogos {
-    padding: 50px;
+    padding: 30px;
     
 }
 
@@ -92,7 +100,7 @@ section.jogos > p {
     font-family: var(--fonte2);
     font-size: 2vw;
     text-align: justify;
-    padding: 20px;
+    padding: 10px;
     
 }
 
