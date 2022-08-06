@@ -4,13 +4,6 @@
     src: url(../fontes/DancingScript-VariableFont_wght.ttf) format('opentype');
 }
 
-@media screen and (max-width: 480px){
-    .tela { 
-        width: 320px;
-        height: auto;
-
-    }
-}
 
 :root {
     --fonte1: 'DancingScript';
@@ -121,5 +114,17 @@ section > img {
     
 }
 
+iframe {
+    width: 560px;
+    height: 315px;
+}
 
+
+@media screen and (max-width: 420px){
+    iframe { 
+        width: 320px;
+        height: auto;
+
+    }
+}
 
