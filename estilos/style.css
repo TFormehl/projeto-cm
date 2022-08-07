@@ -62,8 +62,8 @@ body {
 }
 
 main {
-    margin: auto;
-    /*padding: 10vh  10vw;*/
+    /*margin: auto;
+    padding: 10vh  10vw;*/
     
 }
 
@@ -74,13 +74,13 @@ h2 {
 
 section.home {
     display: flex;
-    margin: 10vw;
+    margin: 5vh 10vw;
     text-align: justify;
     text-indent: 3em;
 }
 
 section.profs {
-    margin: 10vw;
+    margin: 5vh 10vw;
     text-align: center;
 }
 
