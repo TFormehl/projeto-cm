@@ -98,7 +98,7 @@ section.jogos > p {
 h2 {
     text-align: center;
     font-size: 45px;
-    padding: 10vh;
+    padding: 5vh;
 }
 
 section > img {
@@ -123,10 +123,14 @@ iframe {
     }
 
 
+
     nav, body {
         font-size: 10px;
     }
 
+    header > p {
+        font-size: 12px;
+    }
 
 
     iframe { 
