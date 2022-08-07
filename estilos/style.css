@@ -6,7 +6,7 @@
 
 
 :root {
-    --fonte1: 'DancingScript';
+    --fonte1: 'DancingScript', cursive;
     --fonte2: Arial, Helvetica, sans-serif;
 
     --cor00: #ECED13;
@@ -26,90 +26,84 @@
 
 header {
     background-image: linear-gradient(to top, var(--cor00), var(--cor04));
-    font-family: var(--fonte1);
     text-align: center;
-    
+    padding: 50px 0 10px 0;
 }
 
 h1 {
-    padding-top: 30px;
-    font-size: 3vw;
+    font-size: 50px;
+    font-family: var(--fonte1);
 }
 
-h2 {
-    padding-bottom: 30px;
-    font-size: 2.5vw;
-}
-
-h3 {
-    font-size: 2.5vw;
+header > p {
+    font-size: 45px;
+    font-family: var(--fonte1);
 }
 
 nav {
-    text-align: left;
-    font-size: 2vw;
+    text-align: center;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
+    padding-top: 50px;
     
 }
 
 nav > a {
     padding: 10px;
     text-decoration: none;
-
 }
+
 
 body {
     text-align: center;
     background-color: var(--cor01);
+    font-family: var(--fonte2);
+    font-size: 30px;
 }
 
 main {
     margin: auto;
-    padding: 25px;
-    max-width: 90%;
+    padding: 25px 200px;
     
+    
+}
+
+h2 {
+    font-family: var(--fonte2);
+    font-size: 45px;
 }
 
 section.home {
     display: flex;
-}
-
-section.home > p {
-    margin: 20px;
-    font-family: var(--fonte2);
-    margin: 25px;
-    font-size: 2vw;
+    margin: 30px;
     text-align: justify;
-
+    text-indent: 48px;
 }
 
-section.jogos {
-    padding: 30px;
-    
-}
-
-section.jogos > p {
-    font-family: var(--fonte2);
-    font-size: 2vw;
-    text-align: justify;
-    padding: 10px;
-    
-}
-
-section.profs > p {
-    margin: auto;
-    font-family: var(--fonte2);
-    margin: 25px;
-    font-size: 2vw;
+section.profs {
+    margin: 30px;
     text-align: center;
 }
 
+section.jogos {
+    margin: auto;
+    text-indent: 48px;
 
+}
 
+section.jogos > p {
+    text-align: justify;
+    padding: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    padding: 30px;
+}
 
 section > img {
-    margin: 20px;
+    margin: 0 20px;
     width: 30vw;
     
 }
@@ -124,7 +118,6 @@ iframe {
     iframe { 
         width: 250px;
         height: auto;
-
     }
 }
 
