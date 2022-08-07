@@ -63,8 +63,7 @@ body {
 
 main {
     margin: auto;
-    padding: 25px 200px;
-    
+    padding: 10vh  10vw;
     
 }
 
@@ -127,6 +126,8 @@ iframe {
     nav, body {
         font-size: 16px;
     }
+
+
 
     iframe { 
         width: 250px;
