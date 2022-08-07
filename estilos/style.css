@@ -63,7 +63,7 @@ body {
 
 main {
     margin: auto;
-    padding: 10vh  10vw;
+    /*padding: 10vh  10vw;*/
     
 }
 
@@ -74,31 +74,31 @@ h2 {
 
 section.home {
     display: flex;
-    margin: 30px;
+    margin: 10vw;
     text-align: justify;
-    text-indent: 48px;
+    text-indent: 3em;
 }
 
 section.profs {
-    margin: 30px;
+    margin: 10vw;
     text-align: center;
 }
 
 section.jogos {
     margin: auto;
-    text-indent: 48px;
+    text-indent: 3em;
 
 }
 
 section.jogos > p {
     text-align: justify;
-    padding: 25px;
+    padding: 0 10vw 5vh 10vw;
 }
 
 h2 {
     text-align: center;
     font-size: 45px;
-    padding: 30px;
+    padding: 10vh;
 }
 
 section > img {
@@ -115,16 +115,16 @@ iframe {
 
 @media screen and (max-width: 420px){
     h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
 
     nav, body {
-        font-size: 16px;
+        font-size: 12px;
     }
 
 
