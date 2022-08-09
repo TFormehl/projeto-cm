@@ -91,13 +91,14 @@ section.profs a {
 
 section.jogos {
     margin: auto;
-    text-indent: 3em;
+    
 
 }
 
 section.jogos > p {
     text-align: justify;
     padding: 0 10vw 5vh 10vw;
+    text-indent: 3em;
 }
 
 section.jogos > a {
