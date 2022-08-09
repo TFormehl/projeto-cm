@@ -59,6 +59,7 @@ body {
     background-color: var(--cor01);
     font-family: var(--fonte2);
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 main {
